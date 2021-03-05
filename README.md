@@ -10,6 +10,7 @@ Write an application to track your expenses/income. These are the functionalitie
     - TransactionList should have the list of transactions for which you should use `UL`.
 2. User should be able to add personal expenses or income. Expense/Income record should include id, description, category, transactiondate, amount. Use a model class with properties - `id`, `description`, `category`, `transactiondate`, `amount`.
 3. In TransactionList 
+    - Each list item should display date of transaction, description & amount.
     - Each list item should have a button on the right to delete the transaction.
     - In each item there should be colour coding for the right border. For income & expense transaction it should display green and red colour border respectively.
     - In each item there should be +/- sign with amount based upon the type of transaction.
