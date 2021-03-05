@@ -1,19 +1,27 @@
-# Expense Tracker App
+# ExpenseTracker
 
-# Problem Requirements
-Write an application to track your expenses/income. These are the functionalities you need to implement in your application:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
-1. The application is divide into 4 parts - Header, Summary, UserForm, TransactionList
-    - Header Should contain the Heading of the application as `Expense Tracker` and also should display the Total Balance.
-    - Summary should display the Total Income & Total Expense Amount.
-    - UserForm should have 2 text fields - `Description` & `Amount`, a date field, 2 radio buttons - `Income` & `Expense` and a button with text `Add Transaction`.
-    - TransactionList should have the list of transactions for which you should use `UL`.
-2. User should be able to add personal expenses or income. Expense/Income record should include id, description, category, transactiondate, amount. Use a model class with properties - `id`, `description`, `category`, `transactiondate`, `amount`.
-3. In TransactionList 
-    - Each list item should display date of transaction, description & amount.
-    - Each list item should have a button on the right to delete the transaction.
-    - In each item there should be colour coding for the right border. For income & expense transaction it should display green and red colour border respectively.
-    - In each item there should be +/- sign with amount based upon the type of transaction.
-4. Upon adding or removing the transaction, the amount should be reflected in header & summary.
-5. All data should be stored in `db.json` file.
-6. Use font awesome icons wherever required.
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
